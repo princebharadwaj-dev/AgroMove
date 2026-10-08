@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 interface IUser{
     _id?:mongoose.Types.ObjectId
-    name:bool
+    name:string
     email:string
     password:string
     mobile?:string
